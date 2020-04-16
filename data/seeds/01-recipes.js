@@ -1,9 +1,8 @@
 
 exports.seed = function(knex) {
       return knex('table_name').insert([
-        {colName: 'rowValue1'},
-        {colName: 'rowValue2'},
-        {colName: 'rowValue3'}
+        {recipe_name: 'rowValue1'},
+        {recipe_name: 'rowValue2'},
+        {recipe_name: 'rowValue3'}
       ]);
-    });
-};
+    };
